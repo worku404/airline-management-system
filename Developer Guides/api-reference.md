@@ -115,13 +115,4 @@ struct CheckInResult {
 CheckInResult process_check_in(const std::string& pnr_id, int baggage_count);
 Status update_flight_status(const std::string& flight_id, std::string new_status);
 ```
-## System Invariants
 
-<!-- Atomicity: A booking cannot exist without a corresponding deduction from the flight inventory.
-
-Financial Integrity: All costs are managed in long long cents to ensure 100% accuracy in multi-currency transactions.
-
-Traceability: Every Status returned by a failed operation must include a unique error_code for logging and debugging.
-
-Decoupling: The BoardingController does not need to know the price of the ticket, only the validity of the pnr_id.
- -->
