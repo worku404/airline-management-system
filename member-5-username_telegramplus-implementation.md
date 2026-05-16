@@ -98,8 +98,8 @@ validator.cpp (Implementation) → Function implementations
 ---
 
 # **Detailed Function Breakdown**
-
-## **Function 1: is_valid_iata()**
+=== # (DELETED) ===
+## **Function 1: is_valid_iata() **
 
 ### **Purpose**
 Validate IATA airport codes (3-letter codes like JFK, LAX, DXB)
@@ -172,7 +172,7 @@ if (!is_valid_iata(criteria.destination)) {
 ```
 
 ---
-
+=== # (DELETED) ===
 ## **Function 2: is_valid_passport()**
 
 ### **Purpose**
